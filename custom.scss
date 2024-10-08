@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*-- scss:rules --*/
+
+#quarto-document-content {
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 15pt;
+  margin-bottom: -50pt !important;
+  
+  h1 {
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 2.8em;
+    line-height: 1;
+  }
+  
+  h2 {
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 1;
+  }
+  
+  a {
+    color: #6f1d1b;
+  }
+}
+
+.cr-section {
+  
+  .narrative-col {
+    background-color: #283618;
+    color: #F0F5F5;
+    min-width: 400px;
+    
+  }
+}
+
+.cr-section .sticky-col {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
