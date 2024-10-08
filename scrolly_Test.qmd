@@ -17,9 +17,10 @@ editor: source
 by Michał Wypych
 :::
 <br>
-National Parks differ in the kinds of animals and plants they have present
+The National Park System in the USA is in charge of caring for the 63 national parks located in the USA.
+National Parks differ in the kinds of environment, landscape, animals and plants they have preserved. This presentation focuses on 12 parks with data available from [Tidytuesday](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-10-08/readme.md)
 
-There are many species, many parks and lots of missing information
+There are many species, many parks and unfortunately lots of missing information. We have the most information on amphibias, birds, fish, mammals, reptiles and vascular plants. There is little information on presence of bacteria, chromista nad protozoa in those parks
 
 ::: {#cr-testy}
 ![](main.png)
@@ -92,88 +93,137 @@ This park is probably one of the best known national parks in the USA. Located w
 
 :::
 
-::: cr-section
-Grand Teton National Park is in northwestern Wyoming. This mountain-based park has a cold and snowy climate is the host for such species like Grizzly Bears and bull moose. It has beautiful glaciers, creeks, lakes and hot springs. @cr-teton
+:::{.cr-section}
+
+:::{focus-on="cr-teton"}
+## Grand Teton National Park
+This park is in northwestern Wyoming. This mountain-based park has a cold and snowy climate is the host for such species like Grizzly Bears and bull moose. It has beautiful glaciers, creeks, lakes and hot springs.
+:::
 
 ::: {#cr-teton}
 ![](Grand_Teton_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Great Smoky Mountains National Park located in North Carolina has the largest number of insects, spiders and fungi out of all national parks described here. It has also a huge variety of other categories of living organisms making it the most biodiverse park in thew National Park System. Its mountain temperate climate and humid weather with abundance of rain make it possible for such diversity of organisms to live there @cr-smoky
+:::{.cr-section}
+
+:::{focus-on="cr-smoky"}
+## Great Smoky Mountains National Park 
+This park is located in North Carolina has the largest number of insects, spiders and fungi out of all national parks described here. It has also a huge variety of other categories of living organisms making it the most biodiverse park in thew National Park System. Its mountain temperate climate and humid weather with abundance of rain make it possible for such diversity of organisms to live there
+:::
 
 ::: {#cr-smoky}
 ![](Great_Smoky_Mountains_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-As the name suggests the Hot Springs National Park is famous for its thermal springs and historic bathhouses. It does not have as many confirmed plant occurrences as the other parks. Located next to Hot springs in Arkansas the park is surrounded by mountians and forests. Unfortunately many species were lost due to hunting and loss of habitat before the park was expanded to protect the fauna and flora of the region. @cr-springs
+:::{.cr-section}
+
+:::{focus-on="cr-springs"}
+## Hot Springs National Park
+As the name suggests the Hot Springs National Park is famous for its thermal springs and historic bathhouses. It does not have as many confirmed plant occurrences as the other parks. Located next to Hot springs in Arkansas the park is surrounded by mountians and forests. Unfortunately many species were lost due to hunting and loss of habitat before the park was expanded to protect the fauna and flora of the region.
+:::
 
 ::: {#cr-springs}
 ![](Hot_Springs_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Indiana Dunes National Park is located by Lake Michigan in northern USA. It is best known for its shoreline and dunes that are host for many plants and bird species. It has fourth highest biodiversity among the national parks. @cr-dunes
+:::{.cr-section}
+
+:::{focus-on="cr-dunes"}
+## Indiana Dunes National Park 
+This park is located by Lake Michigan in northern USA. It is best known for its shoreline and dunes that are host for many plants and bird species. It has fourth highest biodiversity among the national parks.
+:::
 
 ::: {#cr-dunes}
 ![](Indiana_Dunes_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Joshua Tree National Park is located close to Palm springs in California between Colorado Desert, Mojave Desert and Little San Bernardino Mountains. Many species of birds can be sighted there because it lies on the Pacific flyway for migratory birds. @cr-joshua
+:::{.cr-section}
+
+:::{focus-on="cr-joshua"}
+## Joshua Tree National Park 
+This park is located close to Palm springs in California between Colorado Desert, Mojave Desert and Little San Bernardino Mountains. Many species of birds can be sighted there because it lies on the Pacific flyway for migratory birds.
+:::
 
 ::: {#cr-joshua}
 ![](Joshua_Tree_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-In the far north west of USA lies the Olympic National Park. Located east of Seattle it comprises of mountains with glaciers, temperate rain forests and a long wild coastline. It is home to many plant and mammal species as well as insects and fish. Dolphins, sea lions and even whales can be spotted from its shores. @cr-olympic
+:::{.cr-section}
+
+:::{focus-on="cr-olympic"}
+## Olympic National Park
+In the far north west of USA lies the Olympic National Park. Located east of Seattle it comprises of mountains with glaciers, temperate rain forests and a long wild coastline. It is home to many plant and mammal species as well as insects and fish. Dolphins, sea lions and even whales can be spotted from its shores.
+:::
 
 ::: {#cr-olympic}
 ![](Olympic_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Rocky Mountain National Park lies close to Denver in Colorado. It's elevation (from 7,860 feet to 14,259 feet) defines the unique features of this park, from large meadows to alpine lakes. It has a large variety of categories of living organisms with many plants, fungi and insects present. @cr-rocky
+:::{.cr-section}
 
+:::{focus-on="cr-rocky"}
+## Rocky Mountain National Park 
+This park lies close to Denver in Colorado. It's elevation (from 7,860 feet to 14,259 feet) defines the unique features of this park, from large meadows to alpine lakes. It has a large variety of categories of living organisms with many plants, fungi and insects present.
+:::
 ::: {#cr-rocky}
 ![](Rocky_Mountain_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Yellowstone National Park is famous for its geysers and other hydrothermal areas. It is located in north western Wyoming. Its unique climate is home to a huge variety of insects and plants, especially thermophiles. Thanks to having been established early in the US history it was able to protect its varied wildlife. @cr-yellowstone
+:::{.cr-section}
+
+:::{focus-on="cr-yellowstone"}
+## Yellowstone National Park 
+This park is famous for its geysers and other hydrothermal areas. It is located in north western Wyoming. Its unique climate is home to a huge variety of insects and plants, especially thermophiles. Thanks to having been established early in the US history it was able to protect its varied wildlife.
+:::
 
 ::: {#cr-yellowstone}
 ![](Yellowstone_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Yosemite National Park is located in California, over 200 kilometers east of San Francisco. It is most famous for its waterfalls, valleys and meadows. It is home to giant sequoias and over 1000 species of other plants. @cr-yosemite
+:::{.cr-section}
+
+:::{focus-on="cr-yosemite"}
+## Yosemite National Park 
+This park is located in California, over 200 kilometers east of San Francisco. It is most famous for its waterfalls, valleys and meadows. It is home to giant sequoias and over 1000 species of other plants.
+:::
 
 ::: {#cr-yosemite}
 ![](Yosemite_National_Park.png)
 :::
+
 :::
 
-::: cr-section
-Zion National Park is located in southwestern Utah. Its large elevation change with over 5000 feet in the highest point it provides diverse habitats for many species of plants and animals. The meandering canyons and rivers are home to many plants and birds.   @cr-zion
+:::{.cr-section}
+
+:::{focus-on="cr-zion"}
+## Zion National Park
+This park is located in southwestern Utah. Its large elevation change with over 5000 feet in the highest point it provides diverse habitats for many species of plants and animals. The meandering canyons and rivers are home to many plants and birds.
+:::
 
 ::: {#cr-zion}
 ![](Zion_National_Park.png)
 :::
-:::
 
 :::
-
+<br>
+<br>
+<br>
 **Add a map with all parks for center overlay**?
 
 All information on the parks taken from the [National Park Service](https://www.nps.gov/index.htm) and the data was taken from [Tidytuesday week 41 2024](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-10-08/readme.md)
