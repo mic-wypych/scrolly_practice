@@ -1,10 +1,11 @@
 ---
-title: "scrolly test"
+title: "National Parks in the USA"
 format:
   closeread-html:
     theme: [default, custom.scss]
     remove-header-space: true
     debug-mode: false
+    embed-resources: true
 editor: source
 ---
 
