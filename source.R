@@ -7,22 +7,25 @@ data <- showtextdata <- readr::read_csv('https://raw.githubusercontent.com/rford
 
 #make custom theme (fonts, colros etc for the plot)
 
-
+#palette option one
 my_pal <- c("#bc6c25", "#283618", "#dda15e", "#606c38")
 
+#palette option two
 my_pal_alt <- c("#6f1d1b", "#bb9457", "#99582a", "#432818")
 
-
+#custom theme
 my_theme <- function() {
   #requires Lato and Ubuntu fonts
   theme_minimal(base_family = "Ubuntu", base_size = 15) +
     theme(panel.grid.minor = element_blank(),
+          panel.grid.major.y = element_blank(),
+          panel.grid.major.x = element_line(linewidth = .1, linetype = "dashed", colour = "grey80"),
           plot.background = element_rect(fill = "white", color = NA),
           plot.title = element_text(face = "bold", size = 25, family = "Ubuntu", hjust = .5),
           plot.subtitle = element_text(size = 15),
           axis.title = element_text(face = "bold"),
           strip.text = element_text(face = "bold"),
-          strip.background = element_rect(fill = "grey80", color = NA),
+          strip.background = element_rect(fill = NA, color = NA),
           plot.title.position = "plot",
           legend.position = "top",
           legend.key.size = unit(.4, "cm"),
@@ -44,7 +47,7 @@ main <- data %>%
   labs(title = "Category Occurrence in National Parks", x = NULL) +
   my_theme()
 
-ggsave("main.png", main, width = 7, height = 7)
+ggsave("img/main.png", main, width = 4, height = 4)
 
 
 data %>%
@@ -68,7 +71,7 @@ get_plot <- function(parkname) {
     geom_col(position = "stack") +
     scale_fill_manual(values = my_pal_alt) +
     coord_flip() +
-    labs(title = glue::glue("Category Occurrence in {parkname}"), x = NULL, y = NULL) +
+    labs(title = glue::glue("{parkname}"), x = NULL, y = NULL) +
     my_theme()
 }
 
@@ -79,7 +82,7 @@ parknames <- unique(data$ParkName)
 for(i in parknames) {
   temp <- get_plot(i)
   filename <- str_replace_all(i, " ", "_")
-  ggsave(glue::glue("{filename}.png"), temp, width = 3, height = 3)
+  ggsave(glue::glue("img/{filename}.png"), temp, width = 3, height = 3)
   
 }
 

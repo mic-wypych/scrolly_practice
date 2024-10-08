@@ -23,7 +23,7 @@ National Parks differ in the kinds of environment, landscape, animals and plants
 There are many species, many parks and unfortunately lots of missing information. We have the most information on amphibias, birds, fish, mammals, reptiles and vascular plants. There is little information on presence of bacteria, chromista nad protozoa in those parks
 
 ::: {#cr-testy}
-![](main.png)
+![](img/main.png)
 :::
 
 :::
@@ -31,12 +31,12 @@ There are many species, many parks and unfortunately lots of missing information
 :::{.cr-section}
 
 ::: {focus-on="cr-acedia"}
-## Acedia National Park
+## Acadia National Park
 The park lies in the North East of the USA, in Maine. It is situated along the Atlantic coastline. It contains mountains, lakes, forests and coastlines which contribute to the diversity of its fauna and flora. There is a lot of confirmed Fish and Amphibians in this park. The lands that are now part of the park have been inhabited over 12 000 years ago.
 :::
 
 ::: {#cr-acedia}
-![](Acadia_National_Park.png)
+![](img/Acadia_National_Park.png)
 :::
 
 :::
@@ -49,7 +49,7 @@ This park lies in southern Utah. Since it's a mountain park (it spans over 650 m
 :::
 
 ::: {#cr-bryce}
-![](Bryce_Canyon_National_Park.png)
+![](img/Bryce_Canyon_National_Park.png)
 :::
 
 :::
@@ -62,7 +62,7 @@ This park lies close to Cleveland and Lake Erie. It is based around river Cuyaho
 :::
 
 ::: {#cr-cuyahoga}
-![](Cuyahoga_Valley_National_Park.png)
+![](img/Cuyahoga_Valley_National_Park.png)
 :::
 
 :::
@@ -75,7 +75,7 @@ The park is located in the very north of Montana close to the border with Canada
 :::
 
 ::: {#cr-glacier}
-![](Glacier_National_Park.png)
+![](img/Glacier_National_Park.png)
 :::
 
 :::
@@ -88,7 +88,7 @@ This park is probably one of the best known national parks in the USA. Located w
 :::
 
 ::: {#cr-grand}
-![](Grand_Canyon_National_Park.png)
+![](img/Grand_Canyon_National_Park.png)
 :::
 
 :::
@@ -101,7 +101,7 @@ This park is in northwestern Wyoming. This mountain-based park has a cold and sn
 :::
 
 ::: {#cr-teton}
-![](Grand_Teton_National_Park.png)
+![](img/Grand_Teton_National_Park.png)
 :::
 
 :::
@@ -114,7 +114,7 @@ This park is located in North Carolina has the largest number of insects, spider
 :::
 
 ::: {#cr-smoky}
-![](Great_Smoky_Mountains_National_Park.png)
+![](img/Great_Smoky_Mountains_National_Park.png)
 :::
 
 :::
@@ -127,7 +127,7 @@ As the name suggests the Hot Springs National Park is famous for its thermal spr
 :::
 
 ::: {#cr-springs}
-![](Hot_Springs_National_Park.png)
+![](img/Hot_Springs_National_Park.png)
 :::
 
 :::
@@ -140,7 +140,7 @@ This park is located by Lake Michigan in northern USA. It is best known for its 
 :::
 
 ::: {#cr-dunes}
-![](Indiana_Dunes_National_Park.png)
+![](img/Indiana_Dunes_National_Park.png)
 :::
 
 :::
@@ -153,7 +153,7 @@ This park is located close to Palm springs in California between Colorado Desert
 :::
 
 ::: {#cr-joshua}
-![](Joshua_Tree_National_Park.png)
+![](img/Joshua_Tree_National_Park.png)
 :::
 
 :::
@@ -166,7 +166,7 @@ In the far north west of USA lies the Olympic National Park. Located east of Sea
 :::
 
 ::: {#cr-olympic}
-![](Olympic_National_Park.png)
+![](img/Olympic_National_Park.png)
 :::
 
 :::
@@ -178,7 +178,7 @@ In the far north west of USA lies the Olympic National Park. Located east of Sea
 This park lies close to Denver in Colorado. It's elevation (from 7,860 feet to 14,259 feet) defines the unique features of this park, from large meadows to alpine lakes. It has a large variety of categories of living organisms with many plants, fungi and insects present.
 :::
 ::: {#cr-rocky}
-![](Rocky_Mountain_National_Park.png)
+![](img/Rocky_Mountain_National_Park.png)
 :::
 
 :::
@@ -191,7 +191,7 @@ This park is famous for its geysers and other hydrothermal areas. It is located 
 :::
 
 ::: {#cr-yellowstone}
-![](Yellowstone_National_Park.png)
+![](img/Yellowstone_National_Park.png)
 :::
 
 :::
@@ -204,7 +204,7 @@ This park is located in California, over 200 kilometers east of San Francisco. I
 :::
 
 ::: {#cr-yosemite}
-![](Yosemite_National_Park.png)
+![](img/Yosemite_National_Park.png)
 :::
 
 :::
@@ -217,7 +217,7 @@ This park is located in southwestern Utah. Its large elevation change with over 
 :::
 
 ::: {#cr-zion}
-![](Zion_National_Park.png)
+![](img/Zion_National_Park.png)
 :::
 
 :::
