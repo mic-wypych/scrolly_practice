@@ -26,12 +26,13 @@ my_theme <- function() {
           axis.title = element_text(face = "bold"),
           strip.text = element_text(face = "bold"),
           strip.background = element_rect(fill = NA, color = NA),
+          strip.clip = "clip",
           plot.title.position = "plot",
           legend.position = "top",
           legend.key.size = unit(.4, "cm"),
           legend.title = element_blank(),
           legend.text = element_text(size = 10, family = "Ubuntu"),
-          legend.margin = margin(5,5,5,0))
+          legend.margin = margin(0,0,0,0))
 }
 
 #main plot
@@ -39,15 +40,17 @@ main <- data %>%
   drop_na(ParkName, CategoryName, Occurrence) %>%
   group_by(ParkName) %>%
   count(CategoryName, Occurrence) %>%
+  mutate(ParkName = str_remove(ParkName, " National Park")) %>%
   ggplot(aes(x = ParkName, y = n, fill =Occurrence)) +
   geom_col(position = "fill") +
   scale_fill_manual(values = my_pal_alt) +
+  scale_y_continuous(labels = scales::percent) +
   facet_wrap(~CategoryName) +
   coord_flip() +
-  labs(title = "Category Occurrence in National Parks", x = NULL) +
+  labs(title = "Category Occurrence in National Parks", x = NULL, y = NULL) +
   my_theme()
-
-ggsave("img/main.png", main, width = 4, height = 4)
+main
+ggsave("img/main.png", main, width = 6, height = 4.5)
 
 
 data %>%
