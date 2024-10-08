@@ -22,7 +22,7 @@ National Parks differ in the kinds of environment, landscape, animals and plants
 
 There are many species, many parks and unfortunately lots of missing information. We have the most information on amphibias, birds, fish, mammals, reptiles and vascular plants. There is little information on presence of bacteria, chromista nad protozoa in those parks
 
-::: {#cr-testy}
+::: {#cr-testy .scale-to-fill}
 ![](img/main.png)
 :::
 
@@ -31,7 +31,7 @@ There are many species, many parks and unfortunately lots of missing information
 :::{.cr-section}
 
 ::: {focus-on="cr-acedia"}
-## Acadia National Park
+## Acadia National Park{#sec-acadia}
 The park lies in the North East of the USA, in Maine. It is situated along the Atlantic coastline. It contains mountains, lakes, forests and coastlines which contribute to the diversity of its fauna and flora. There is a lot of confirmed Fish and Amphibians in this park. The lands that are now part of the park have been inhabited over 12 000 years ago.
 :::
 
@@ -221,9 +221,25 @@ This park is located in southwestern Utah. Its large elevation change with over 
 :::
 
 :::
-<br>
-<br>
-<br>
-**Add a map with all parks for center overlay**?
 
+:::{.cr-section }
+
+The parks are scattered across the US @cr-map
+
+Many are in the south west: Yosemite, Zion, Joshua Tree, Grand Canyin, and Bryce Canyon National Parks[@cr-map]{pan-to="58%,-38%" scale-by="2"}
+
+Some are in the west north: Olympic, Glacier, Yellowstone and Grand Teton National Parks. Rocky Mountain Natoional Park is closer to center US.[@cr-map]{pan-to="58%,59%" scale-by="2"}
+
+There are fewer parks east: Hot Springs, Indiana Dunes, Cuyahoga, Great Smoky Mountains and [Acadia National Parks]@sec-acadia. [@cr-map]{pan-to="-40%,0%" scale-by="1.7"}
+
+Remember that these are just a subset of parks for which we have the data! There are 63 national parks in the USA![@cr-map]{pan-to="0%,0%" scale-by="1"}
+
+:::{#cr-map}
+![](img/parkmap.png)
+:::
+
+:::
+<br>
+<br>
+<br>
 All information on the parks taken from the [National Park Service](https://www.nps.gov/index.htm) and the data was taken from [Tidytuesday week 41 2024](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-10-08/readme.md)

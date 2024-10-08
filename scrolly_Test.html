@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
-<div id="cr-testy" class="sticky">
+<div id="cr-testy" class="scale-to-fill sticky">
 <p><img src="img/main.png" class="img-fluid"></p>
 </div>
 </div>
@@ -98,8 +98,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="cr-section column-screen sidebar-left">
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-acedia">
-<section id="acadia-national-park" class="level2 narrative">
-<h2 class="anchored" data-anchor-id="acadia-national-park">Acadia National Park</h2>
+<section id="sec-acadia" class="level2 narrative">
+<h2 class="anchored" data-anchor-id="sec-acadia">Acadia National Park</h2>
 <p>The park lies in the North East of the USA, in Maine. It is situated along the Atlantic coastline. It contains mountains, lakes, forests and coastlines which contribute to the diversity of its fauna and flora. There is a lot of confirmed Fish and Amphibians in this park. The lands that are now part of the park have been inhabited over 12 000 years ago.</p>
 </section>
 </div>
@@ -350,8 +350,43 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p><br> <br> <br> <strong>Add a map with all parks for center overlay</strong>?</p>
-<p>All information on the parks taken from the <a href="https://www.nps.gov/index.htm">National Park Service</a> and the data was taken from <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-10-08/readme.md">Tidytuesday week 41 2024</a></p>
+<div class="cr-section column-screen sidebar-left">
+<div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-map">
+<div class="narrative">
+<p>The parks are scattered across the US</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-scale-by="2" data-focus-on="cr-map" data-pan-to="58%,-38%">
+<div class="narrative">
+<p>Many are in the south west: Yosemite, Zion, Joshua Tree, Grand Canyin, and Bryce Canyon National Parks</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-scale-by="2" data-focus-on="cr-map" data-pan-to="58%,59%">
+<div class="narrative">
+<p>Some are in the west north: Olympic, Glacier, Yellowstone and Grand Teton National Parks. Rocky Mountain Natoional Park is closer to center US.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-scale-by="1.7" data-focus-on="cr-map" data-pan-to="-40%,0%">
+<div class="narrative">
+<p>There are fewer parks east: Hot Springs, Indiana Dunes, Cuyahoga, Great Smoky Mountains and [Acadia National Parks]<a href="#sec-acadia" class="quarto-xref">Section&nbsp;1.1</a>.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-map">
+<div class="narrative">
+<p>Remember that these are just a subset of parks for which we have the data! There are 63 national parks in the USA!</p>
+</div>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-map" class="sticky">
+<p><img src="img/parkmap.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</div>
+<p><br> <br> <br> All information on the parks taken from the <a href="https://www.nps.gov/index.htm">National Park Service</a> and the data was taken from <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-10-08/readme.md">Tidytuesday week 41 2024</a></p>
 
 </main>
 <!-- /main column -->
